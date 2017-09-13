@@ -1,7 +1,6 @@
-# Implantación de aplicaciones web
-## CFGS ASIR (2017-2018)
+# Implantación de aplicaciones web - CFGS ASIR (2017-2018)
 
-### Contenidos
+## Contenidos
 
 1. Introducción a las aplicaciones web
 2. Implantación de aplicaciones web en entornos locales
@@ -10,7 +9,7 @@
 5. Entrega continua
 6. Despliegue moderno de aplicaciones web (IaaS, PaaS, contenedores)
 
-### Prácticas
+## Prácticas
 
 #### 1. Implantación de una aplicación web estática en Github Pages
 
