@@ -12,6 +12,6 @@ El índice de contenidos que vamos a estudiar será:
    :maxdepth: 1
 
    README
-   racticas/estatica
+   practicas/estatica
 ```
 
