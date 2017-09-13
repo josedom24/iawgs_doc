@@ -66,8 +66,7 @@
 #### 8. Despliegue de aplicación web python en PaaS
 #### 9. Despliegue de aplicación web python en contenedores
 #### 10. Implantación de aplicación web JAVA en un entorno local
-#### 11. Integración continúa de una aplicación Java#### 
-
+#### 11. Integración continúa de una aplicación Java
 
 
 
