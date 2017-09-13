@@ -18,7 +18,7 @@
 * Aprender lenguaje de marcas markdown
 * Comprender que existe un integración continua y un despliegue continuo en el proceso de despliegue de la página
 
-2. Instalación local de un CMS PHP (WordPress)
+#### 2. Instalación local de un CMS PHP (WordPress)
 
 * Aprender a instalar la pila LAMP en un servidor
 * Identificar las características de los CMS más usado
@@ -27,7 +27,7 @@
 * Instalación de otros CMS usando virtualhost
 * Necesidad de otros servicios: por ejemplo, servidor de correo saliente
 
-3. Despliegue tradicional de CMS (Drupal)
+#### 3. Despliegue tradicional de CMS (Drupal)
 
 * Seleccionar un hosting compartido e identificar sus características
 * Subir ficheros al hosting compartido (FTP)
@@ -39,7 +39,7 @@
 * Identificación de problemas: el uso de FTP no me permite control de versiones y no es 
 * Identificar problemas: Este esquema no funciona si tenemos un equipo de desarrollo construyendo una aplicación web a medida
 
-4. Entorno de desarrollo aplicaciones web python
+#### 4. Entorno de desarrollo aplicaciones web python
 
 * Identificar las características entre los distintos entornos (desarrollo, producción)
 * Identificar la necesidad de utilizar sistemas de control de versión como git
@@ -53,20 +53,20 @@
 * Identificación de problemas: Si seguimos una metodología ágil es deseable que todos los cambios que vayan realizando los programadores se vayan probando, analizando, ... de forma continúa
 * Identificación de problemas: ¿Y si esas tareas las automatizamos? -> Integración continúa
 
-5. Integración y despliegue automático de páginas estáticas con Travis y surge
+#### 5. Integración y despliegue automático de páginas estáticas con Travis y surge
 
 * Conocer el software de integración continúa más utilizados
 * Tener una primera experiencia con travis para realizar la integración continúa (en este caso simplemente realizar de forma automática que todos los cambios en nuestra página web estática es válida)
 * Despliegue manual de nuestra página en el servicio surge.sh
 * Entender el concepto de despliegue continúo y comprobar la función de despliegue de travis sobre surge.sh
 
-6. Integración continua de una aplicación web python
+#### 6. Integración continua de una aplicación web python
 
-7. Despliegue de aplicación web python en IaaS
-8. Despliegue de aplicación web python en PaaS
-9. Despliegue de aplicación web python en contenedores
-10. Implantación de aplicación web JAVA en un entorno local
-11. Integración continúa de una aplicación Java
+#### 7. Despliegue de aplicación web python en IaaS
+#### 8. Despliegue de aplicación web python en PaaS
+#### 9. Despliegue de aplicación web python en contenedores
+#### 10. Implantación de aplicación web JAVA en un entorno local
+#### 11. Integración continúa de una aplicación Java#### 
 
 
 
