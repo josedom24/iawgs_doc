@@ -12,7 +12,7 @@
 
 ### Prácticas
 
-1. Implantación de una aplicación web estática en Github Pages
+#### 1. Implantación de una aplicación web estática en Github Pages
 
 * Aprender a trabajar con git y github
 * Aprender lenguaje de marcas markdown
