@@ -7,7 +7,10 @@ De acuerdo a la normativa reguladora del ciclo formativo, el módulo profesional
 
 El índice de contenidos que vamos a estudiar será:
 
+```rst
 .. toctree::
    :maxdepth: 1
 
    README
+```
+
