@@ -1,7 +1,23 @@
 # Implantación de aplicaciones web
 ## CFGS ASIR (2017-2018)
 
-[A](#a)
+## ¿Cómo organizo?
+
+* Estática
+* PHP
+* Python
+* Java
+
+* Despliegue local
+* Despliegue tradiconal
+* Despliegue en cloud
+* Despliegue en contenedores
+* IC y DC
+
+
+
+
+
 
 ### Contenidos
 
@@ -80,5 +96,5 @@
 
 
 
-## A
+
 
