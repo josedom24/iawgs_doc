@@ -14,6 +14,6 @@ El índice de contenidos que vamos a estudiar será:
 .. toctree::
    :maxdepth: 1
 
-   unidades/u1
+   unidades/u1/index
 ```
 
