@@ -16,7 +16,7 @@ El índice de contenidos que vamos a estudiar será:
 .. toctree::
    :maxdepth: 2
 
-   unidades/u1/index
+   unidades/index
 ```
 
 Y las pácticas que vamos a realizar son:
@@ -27,5 +27,5 @@ Y las pácticas que vamos a realizar son:
 .. toctree::
    :maxdepth: 2
 
-   practicas/estatica
+   practicas/index
 ```
