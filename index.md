@@ -10,6 +10,8 @@ De acuerdo a la normativa reguladora del ciclo formativo, el módulo profesional
 
 El índice de contenidos que vamos a estudiar será:
 
+## Unidades
+
 ```eval_rst
 .. toctree::
    :maxdepth: 1
@@ -18,6 +20,8 @@ El índice de contenidos que vamos a estudiar será:
 ```
 
 Y las pácticas que vamos a realizar son:
+
+## Prácticas
 
 ```eval_rst
 .. toctree::
