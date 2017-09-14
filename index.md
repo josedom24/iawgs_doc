@@ -23,5 +23,5 @@ Y las pácticas que vamos a realizar son:
 .. toctree::
    :maxdepth: 1
 
-   practicas/estaticas
+   practicas/estatica
 ```
