@@ -17,3 +17,11 @@ El índice de contenidos que vamos a estudiar será:
    unidades/u1/index
 ```
 
+Y las pácticas que vamos a realizar son:
+
+```eval_rst
+.. toctree::
+   :maxdepth: 1
+
+   practicas/estaticas
+```
