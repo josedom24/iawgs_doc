@@ -14,7 +14,6 @@ El índice de contenidos que vamos a estudiar será:
 .. toctree::
    :maxdepth: 1
 
-   README
-   practicas/estatica
+   unidades/u1
 ```
 
