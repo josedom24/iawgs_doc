@@ -14,7 +14,7 @@ El índice de contenidos que vamos a estudiar será:
 
 ```eval_rst
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    unidades/u1/index
 ```
@@ -25,7 +25,7 @@ Y las pácticas que vamos a realizar son:
 
 ```eval_rst
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    practicas/estatica
 ```
