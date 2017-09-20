@@ -34,6 +34,8 @@ from recommonmark.parser import CommonMarkParser
 from recommonmark.transform import AutoStructify
 
 # At the bottom of conf.py
+github_doc_root = ''
+
 def setup(app):
     app.add_config_value('recommonmark_config', {
         'url_resolver': lambda url: github_doc_root + url,
