@@ -38,7 +38,7 @@ Lo que realmente hace esta herramienta una opción muy potente es que Github Pag
 
 La principal característica de Jekylls es la generación de html estático a partir de dos recursos muy simples:
 
-* Plantillas (templates): Ficheros que contienen el esqueleto de las página html que se van a generar. Estos ficheros normalmente se escriben siguiendo la sintaxis de [Liquid](http://wiki.shopify.com/Liquid).
+* Plantillas (templates): Ficheros que contienen el esqueleto de las página html que se van a generar. Estos ficheros normalmente se escriben siguiendo la sintaxis de [Liquid](https://shopify.github.io/liquid/).
 * Ficheros de contenido: Normalmente escritos en sintaxis [Markdown](http://daringfireball.net/projects/markdown/) y que contienen el contenido de la página que se va a generar.
 
 Por lo tanto una vez que tengo definidas mis plantillas, lo único que tengo que hacer es centrarme en  el contenido escribiendo los diferentes de ficheros de contenido.
