@@ -17,7 +17,7 @@
 * Aprender lenguaje de marcas markdown
 * Comprender que existe un integración continua y un despliegue continuo en el proceso de despliegue de la página
 
-#### 2. Instalación local de un CMS PHP (WordPress)
+#### 2. Instalación local de un CMS PHP (Drupal)
 
 * Aprender a instalar la pila LAMP en un servidor
 * Identificar las características de los CMS más usado
