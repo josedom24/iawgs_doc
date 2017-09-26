@@ -21,7 +21,7 @@
 
 * Aprender a instalar la pila LAMP en un servidor
 * Identificar las características de los CMS más usado
-* Descargar e instalar un CMS wordpress
+* Descargar e instalar un CMS drupal
 * Separar servidor web y servidor de base de datos en equipos distintos
 * Instalación de otros CMS usando virtualhost
 * Necesidad de otros servicios: por ejemplo, servidor de correo saliente
