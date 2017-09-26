@@ -5,5 +5,6 @@
    :maxdepth: 1
 
    u1/index
+   u2/index
 ```
 
