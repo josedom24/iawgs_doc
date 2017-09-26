@@ -5,6 +5,6 @@
    :maxdepth: 1
 
    estatica
-   php1
+   php
 ```
 
