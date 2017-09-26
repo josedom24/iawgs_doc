@@ -48,6 +48,7 @@ Esta tarea consiste en instalar un CMS de tecnología PHP (drupal 7 o drupal 8) 
 ## Tarea 4: Instalación de otro CMS PHP
 
 * Elige otro CMS realizado en PHP y realiza la instalación en tu infraestructura.
+* Configura otro virtualhost y elige otro nombre en el mismo dominio.
 
 ```eval_rst
 .. note:: 
