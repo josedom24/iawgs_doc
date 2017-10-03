@@ -26,7 +26,7 @@
 * Instalación de otros CMS usando virtualhost
 * Necesidad de otros servicios: por ejemplo, servidor de correo saliente
 
-#### 3. Despliegue tradicional de CMS (Drupal)
+#### 3. Despliegue tradicional de CMS 
 
 * Seleccionar un hosting compartido e identificar sus características
 * Subir ficheros al hosting compartido (FTP)
