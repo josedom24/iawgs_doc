@@ -1,4 +1,4 @@
-# Instalación local de un CMS PHP 
+# Despliegue tradicional de CMS PHP
 
 Esta tarea consiste en instalar un CMS de tecnología PHP (elige un CMS que no hayas usado en la práctica anterior) en un hosting compartido. Los pasos que tendrás que dar los siguientes:
 
