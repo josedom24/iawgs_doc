@@ -52,7 +52,7 @@ Esta tarea consiste en instalar un CMS de tecnología PHP (drupal 7 o drupal 8) 
 
 ```eval_rst
 .. note:: 
-	En este momento, muestra al profesor la aplicación funcionando en local.
+	En este momento, muestra al profesor la aplicación funcionando en local. Y describe en redmine los pasos fundamentales para realizar la tarea.
 ```
 
 ## Tarea 5: Necesidad de otros servicios
