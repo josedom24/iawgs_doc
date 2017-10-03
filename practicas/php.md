@@ -20,14 +20,14 @@ Esta tarea consiste en instalar un CMS de tecnología PHP (drupal 7 o drupal 8) 
 ## Tarea 2: Instalación de drupal en mi servidor local
 
 * Configura el servidor web con virtual hosting para que el CMS sea accesible desde la dirección: `www.nombrealumno-drupal.org`.
-* crea un usuario en la base de datos para trabajar con la base de datos donde se van a guardar los datos del CMS.
+* Crea un usuario en la base de datos para trabajar con la base de datos donde se van a guardar los datos del CMS.
 * Descarga la versión que te parezca más oportuna de Drupal (7 o 8) y realiza la instalación.
 * Realiza una configuración mínima de la aplicación (Cambia la plantilla, crea algún contenido, ...)
 * Instala un módulo para añadir alguna funcionalidad a drupal.
 
 ```eval_rst
 .. note:: 
-	En este momento, muestra al profesor la aplicación funcionando en local.
+	En este momento, muestra al profesor la aplicación funcionando en local. Entrega un documentación resumida donde expliques los pasos fundamentales para realizar esta tarea.
 ```
 
 ## Tarea 3: Configuración multinodo
