@@ -14,7 +14,7 @@ Esta tarea consiste en instalar un CMS de tecnología PHP (drupal 7 o drupal 8) 
 
 ```eval_rst
 .. note:: 
-	Entrega un documentación resumida donde expliques los pasos fundamentales para realizar esta tarea.
+	Entrega un documentación resumida donde expliques los pasos fundamentales para realizar esta tarea. (1 punto)
 ```
 
 ## Tarea 2: Instalación de drupal en mi servidor local
@@ -27,7 +27,7 @@ Esta tarea consiste en instalar un CMS de tecnología PHP (drupal 7 o drupal 8) 
 
 ```eval_rst
 .. note:: 
-	En este momento, muestra al profesor la aplicación funcionando en local. Entrega un documentación resumida donde expliques los pasos fundamentales para realizar esta tarea.
+	En este momento, muestra al profesor la aplicación funcionando en local. Entrega un documentación resumida donde expliques los pasos fundamentales para realizar esta tarea. (4 puntos)
 ```
 
 ## Tarea 3: Configuración multinodo
@@ -42,7 +42,7 @@ Esta tarea consiste en instalar un CMS de tecnología PHP (drupal 7 o drupal 8) 
 ```eval_rst
 .. note:: 
 	Entrega un documentación resumida donde expliques los pasos fundamentales para realizar esta tarea.
-	En este momento, muestra al profesor la aplicación funcionando en local.
+	En este momento, muestra al profesor la aplicación funcionando en local. (2 puntos)
 ```
 
 ## Tarea 4: Instalación de otro CMS PHP
@@ -52,7 +52,7 @@ Esta tarea consiste en instalar un CMS de tecnología PHP (drupal 7 o drupal 8) 
 
 ```eval_rst
 .. note:: 
-	En este momento, muestra al profesor la aplicación funcionando en local. Y describe en redmine los pasos fundamentales para realizar la tarea.
+	En este momento, muestra al profesor la aplicación funcionando en local. Y describe en redmine los pasos fundamentales para realizar la tarea. (2 puntos)
 ```
 
 ## Tarea 5: Necesidad de otros servicios
@@ -66,6 +66,6 @@ Esta tarea consiste en instalar un CMS de tecnología PHP (drupal 7 o drupal 8) 
 
 ```eval_rst
 .. note:: 
-	Muestra al profesor algún correo enviado por tu CMS.
+	Muestra al profesor algún correo enviado por tu CMS. (1 punto)
 ```
 
