@@ -17,10 +17,9 @@ Formas parte del equipo de desarrollo de la aplicación "Gestión IESGN", aplica
 	En este momento, muestra al profesor la aplicación funcionando. Entrega un documentación resumida donde expliques los pasos fundamentales para realizar esta tarea. (3 puntos)
 ```
 
-## Tarea 2: Elección de un hosting compartido
+## Tarea 2: Desarrollando nuestra aplicación
 
-* Elige un servicio de hosting compartido con las caracterísitcas necesarias para instalar un CMS PHP (soporte PHP, base de datos,...)
-* Date de alta en el servicio.
+Vamos a realizar un cambio en la aplicación y comprobar que los cambios se realizan 
 
 ```eval_rst
 .. note:: 
