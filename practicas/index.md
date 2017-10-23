@@ -7,5 +7,6 @@
    estatica
    php
    php2
+   python
 ```
 
