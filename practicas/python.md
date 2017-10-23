@@ -76,21 +76,22 @@ Vamos a realizar cambios en el entorno de desarrollo y posteriormente vamos a su
 * Vamos a crear una nueva tabla en la base de datos, para ello sigue los siguientes pasos:
 	1. Añade un n uevo modelo al fichero `centro/models.py`:
 
-		class Modulo(models.Model):	
-			Abr = models.CharField(max_length=4)
-			Nombre = models.CharField(max_length=50)
-			Unidad = models.ForeignKey(Cursos,blank=True,null=True,on_delete=models.SET_NULL)
-			
-			def __unicode__(self):
-				return self.Abr+" - "+self.Nombre 		
-
-			class Meta:
-				verbose_name="Modulo"
-				verbose_name_plural="Modulos"
+			class Modulo(models.Model):	
+				Abr = models.CharField(max_length=4)
+				Nombre = models.CharField(max_length=50)
+				Unidad = models.ForeignKey(Cursos,blank=True,null=True,on_delete=models.SET_NULL)
+				
+				def __unicode__(self):
+					return self.Abr+" - "+self.Nombre 		
+	
+				class Meta:
+					verbose_name="Modulo"
+					verbose_name_plural="Modulos"
 
 
 	2. Crea una nueva migración: `python manage.py makemigrations`. 
 	3. Y realiza la migración: `python manage.py migrate`
+
 
 
 
