@@ -93,6 +93,7 @@ Vamos a realizar cambios en el entorno de desarrollo y posteriormente vamos a su
 2. Crea una nueva migración: `python manage.py makemigrations`. 
 3. Y realiza la migración: `python manage.py migrate`
 4. Añade el nuevo modelo al sitio de administración de django, para ello cambia la siguiente línea en el fichero `centro/admin.py`:
+	
 	from centro.models import Cursos,Alumnos,Departamentos,Profesores,Areas
 
 Por esta otra:
@@ -102,14 +103,8 @@ Por esta otra:
 Y añade al final la siguiente línea:
 
 	admin.site.register(Modulos)
-	
 
-
-
-
-
-
-
+* Despliega el cambio producido al crear la nueva tabla en el entorno de producción.
 
 ```eval_rst
 .. note:: 
