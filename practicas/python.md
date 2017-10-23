@@ -78,7 +78,7 @@ Vamos a realizar cambios en el entorno de desarrollo y posteriormente vamos a su
 	
 1. Añade un n uevo modelo al fichero `centro/models.py`:
 
-		class Modulo(models.Model):	
+		class Modulos(models.Model):	
 			Abr = models.CharField(max_length=4)
 			Nombre = models.CharField(max_length=50)
 			Unidad = models.ForeignKey(Cursos,blank=True,null=True,on_delete=models.SET_NULL)
@@ -92,9 +92,19 @@ Vamos a realizar cambios en el entorno de desarrollo y posteriormente vamos a su
 
 2. Crea una nueva migración: `python manage.py makemigrations`. 
 3. Y realiza la migración: `python manage.py migrate`
-4. Añade el nuevo modelo al sitio de administración de djanfo, para ello añade la siguiente línea en el fichero `centro/admin.py`:
+4. Añade el nuevo modelo al sitio de administración de django, para ello cambia la siguiente línea en el fichero `centro/admin.py`:
+	from centro.models import Cursos,Alumnos,Departamentos,Profesores,Areas
 
+Por esta otra:
+
+	from centro.models import Cursos,Alumnos,Departamentos,Profesores,Areas,Modulos
+
+Y añade al final la siguiente línea:
+
+	admin.site.register(Modulos)
 	
+
+
 
 
 
