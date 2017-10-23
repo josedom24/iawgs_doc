@@ -37,21 +37,28 @@ Vamos a realizar el despliegue de nuestra aplicación en un entorno de producci�
 * Instala en el servidor los servicios necesarios (apache2, mysql, ...). Instala el módulo de apache2 para ejecutar código python.
 * Clona tu repositorio en el `DocumentRoot` de tu virtualhost.
 * Crea un entorno virtual e instala las dependencias de tu aplicación.
-* Instala en el entorno virtual el módulo que permite que python trabaje con mysql: `PyMySQL`.
+* Instala en el entorno virtual el módulo que permite que python trabaje con mysql: 
+
+		$ apt-get build-dep python-mysqldb
+
+	Y en el entorno virtual:
+
+		(env)$ pip install mysql-python
+
 * Configura un virtualhost en apache2 con la configuración adecuada para que funcione la aplicación. El punto de entrada de nuestro servidor será `iaw_gestionGN/gestion/wsgi.py`.
 * Crea una base de datos y un usuario en mysql.
 * Configura la aplicación para trabajar con mysql, para ello modifica la configuración de la base de datos en el archivo `settings.py`:
 
-	DATABASES = {
-	    'default': {
-	        'ENGINE': 'django.db.backends.mysql',
-	        'NAME': 'myproject',
-	        'USER': 'myprojectuser',
-	        'PASSWORD': 'password',
-	        'HOST': 'localhost',
-	        'PORT': '',
-	    }
-	}
+		DATABASES = {
+		    'default': {
+		        'ENGINE': 'django.db.backends.mysql',
+		        'NAME': 'myproject',
+		        'USER': 'myprojectuser',
+		        'PASSWORD': 'password',
+		        'HOST': 'localhost',
+		        'PORT': '',
+		    }
+		}
 
 * Crea las tablas de la base de datos y carga los datos de pruebas. Accede a mysql y comprueba que se han creado de forma adecuada.
 * Muestra la página funcionando.
@@ -82,8 +89,8 @@ Vamos a realizar cambios en el entorno de desarrollo y posteriormente vamos a su
 				verbose_name_plural="Modulos"
 
 
-	2. Creo una nueva migración: `python manage.py makemigrations`. 
-	3. Hago la migración: `python manage.py migrate`
+	2. Crea una nueva migración: `python manage.py makemigrations`. 
+	3. Y realiza la migración: `python manage.py migrate`
 
 
 
