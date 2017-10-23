@@ -92,7 +92,9 @@ Vamos a realizar cambios en el entorno de desarrollo y posteriormente vamos a su
 
 2. Crea una nueva migración: `python manage.py makemigrations`. 
 3. Y realiza la migración: `python manage.py migrate`
-4. Añade el nuevo modelo al sitio de administración de django, para ello cambia la siguiente línea en el fichero `centro/admin.py`:
+4. Añade el nuevo modelo al sitio de administración de django:
+
+Para ello cambia la siguiente línea en el fichero `centro/admin.py`:
 	
 	from centro.models import Cursos,Alumnos,Departamentos,Profesores,Areas
 
@@ -112,21 +114,21 @@ Y añade al final la siguiente línea:
 	En este momento, muestra al profesor la aplicación funcionando en el otro hosting. (4 puntos)
 ```
 
-## Tarea 5: 
+## Tarea 5: Despliegue de nuestra aplicación en un hosting python: pythonanywhere
 
-* ¿Cómo harías una copia de seguridad de tu aplicación? ¿Crees que se puede automatizar dicha tarea?
-realizar el despliegue de nuestra aplicación en un entorno de producción, para ello vamos a utilizar 
+* Siguiendo la [documentación](https://help.pythonanywhere.com/pages/) despliega nuestra aplicación django en pythonanwhere. Utiliza git para desplegar los ficheros y crea una base de datos en tu proyecto. Si con la documentación no es suficiente puede seguir mi documento: [Despliegue de aplicación flask en hosting pythonanywhere])(https://github.com/josedom24/curso_flask/tree/master/curso/u34).
+
 ```eval_rst
 .. note:: 
-	Entrega una documentación donde indiques los pasos para realizar una copia de seguridad. Si puedes realiza un pequeño script que automatice dicha tarea. (1 punto)
+	Entrega una documentación donde indiques los pasos para realizar una copia de seguridad. Si puedes realiza un pequeño script que automatice dicha tarea. (2 puntos)
 ```
 
 ```eval_rst
 .. warning:: 
-	* Identificación de problemas: los cambios se realizan directamente en el servidor en producción
-	* Identificrealizar el despliegue de nuestra aplicación en un entorno de ación de problemas: los hosting producción, para ello vamos a utilizar compartidos no son escalables ni elásticos
-	* Identificación de problemas: el uso de FTP no me permite control de versiones y no es el mecanismo más eficiente.
-	* Identificación de problemas: Este esquema no funciona si tenemos un equipo de desarrollo construyendo una aplicación web a medida.
-	* Identificación de problemas: Las copias de seguridad pueden ser complicadas de realizar y además es complicado la automatización.
-```
+	* Identificación de problemas: si estamos desarrollando una aplicación es necesario probarla, realizar test.
+	* Identificación de problemas: además de lo anterior el equipo de desarrollo necesita ir haciendo otros procesos: analizando el código generado, generar documentación,...
+	* Identificación de problemas: Nuestro equipo de desarrollo las componen varios miembros: es fundamental utilizar un repositorio común (git)
+	* Identificación de problemas: Si seguimos una metodología ágil es deseable que todos los cambios que vayan realizando los programadores se vayan probando, analizando, ... de forma continúa
+	* Identificación de problemas: ¿Y si esas tareas las automatizamos? -> Integración continúa	
+
 
