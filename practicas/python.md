@@ -10,7 +10,7 @@ Formas parte del equipo de desarrollo de la aplicación "Gestión IESGN", aplica
 * Comprueba que vamos a trabajar con una base de datos sqlite (`gestion\settings.py`). ¿Cómo se llama la base de datos que vamos a crear?
 * Crea la base de datos: `python manage.py migrate`. A partir del modelo de datosse crean las tablas de la base de datos.
 * Añade los datos de prueba a la base de datos. Para más información: [https://coderwall.com/p/mvsoyg/django-dumpdata-and-loaddata](https://coderwall.com/p/mvsoyg/django-dumpdata-and-loaddata). Utiliza el fichero `datos.json`.
-* Crea un usuario administrador: `python manage.py createsuperuser`, y entra en la zona de administración para comprobar que los datos se han añadido correctamente.
+* Entra en la zona de administración para comprobar que los datos se han añadido correctamente. Usuario: `admin` ontraseña: `asdasd1234`).
 * Ejecuta el servidor web de desarrollo y comprueba en el navegador que la aplicación está funcionando. Accede con el usuario `usuario` (contraseña: `asdasd1234`).
 
 ```eval_rst
