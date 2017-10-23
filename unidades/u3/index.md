@@ -19,7 +19,7 @@
 
 ## Enlaces
 
-* [Crear una página web con Python](http://www.josedomingo.org/pledin/2015/03/crear-una-pagina-web-con-python/)
+* [Crear una página web con Python](https://github.com/josedom24/curso_flask/tree/master/curso/u4)
 * [Lista de framework Python](https://wiki.python.org/moin/WebFrameworks)
 * [Lista de cms desarrollados en Django](https://djangopackages.org/grids/g/cms/)
 * [Lista de cms desarrollados en Python](https://wiki.python.org/moin/ContentManagementSystems)
