@@ -39,7 +39,7 @@ Vamos a realizar el despliegue de nuestra aplicación en un entorno de producci�
 * Crea un entorno virtual e instala las dependencias de tu aplicación.
 * Instala en el entorno virtual el módulo que permite que python trabaje con mysql: 
 
-		$ apt-get build-dep python-mysqldb
+		$ apt-get install python-mysqldb
 
 	Y en el entorno virtual:
 
