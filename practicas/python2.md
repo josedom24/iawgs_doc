@@ -37,7 +37,7 @@ Vamos a realizar el despliegue de nuestra aplicación en un entorno de producci�
 * Instala en el servidor los servicios necesarios (apache2, mysql, ...). Instala el módulo de apache2 para ejecutar código python.
 * Clona tu repositorio en el `DocumentRoot` de tu virtualhost.
 * Crea un entorno virtual e instala las dependencias de tu aplicación.
-* Instala en el entorno virtual el módulo que permite que python trabaje con mysql: 
+* Instala el módulo que permite que python trabaje con mysql: 
 
 		$ apt-get install python-mysqldb
 
@@ -116,11 +116,11 @@ Y añade al final la siguiente línea:
 
 ## Tarea 5: Despliegue de nuestra aplicación en un hosting python: pythonanywhere
 
-* Siguiendo la [documentación](https://help.pythonanywhere.com/pages/) despliega nuestra aplicación django en pythonanwhere. Utiliza git para desplegar los ficheros y crea una base de datos en tu proyecto. Si con la documentación no es suficiente puede seguir mi documento: [Despliegue de aplicación flask en hosting pythonanywhere])(https://github.com/josedom24/curso_flask/tree/master/curso/u34).
+* Siguiendo la [documentación](https://help.pythonanywhere.com/pages/) despliega nuestra aplicación django en pythonanwhere. Utiliza git para desplegar los ficheros y crea una base de datos en tu proyecto. Si con la documentación no es suficiente puede seguir mi documento: [Despliegue de aplicación flask en hosting pythonanywhere](https://github.com/josedom24/curso_flask/tree/master/curso/u34).
 
 ```eval_rst
 .. note:: 
-	Entrega una documentación donde indiques los pasos para realizar una copia de seguridad. Si puedes realiza un pequeño script que automatice dicha tarea. (2 puntos)
+	Entrega una documentación donde indiques los pasos para realizar una copia de seguridad. Si puedes realiza un pequeño script que automatice dicha tarea. (3 puntos)
 ```
 
 ```eval_rst
