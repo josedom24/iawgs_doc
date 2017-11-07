@@ -24,7 +24,7 @@ Procesos que se realizan en la IC:
 
 Es un cambio de paradigma. Es necesario la aceptación de los miembros del equipo, puesto que la integración continua es una práctica y no una herramienta.
 
-![IC]("img/ic.png")
+![IC](img/ic.png)
 
 * Entrega continua (EC): Es el siguiente paso de IC, y consiste en preparar la aplicación web para su puesta en producción. El paso a producción se hace de forma manual.
 * Despliegue continuo (DC): Es similar a la anterior pero en este caso también se automatiza el despliegue final en producción.
@@ -37,16 +37,16 @@ Es un cambio de paradigma. Es necesario la aceptación de los miembros del equip
 * [Semaphore](https://semaphoreapp.com/)
 * [Travis](https://travis-ci.com/)
 * [Codeship](https://www.codeship.io/)
-* [Ship.io](https://ship.io/)
 * [tddium](https://www.solanolabs.com/)
 * [Wercker](http://wercker.com/)
 * [Shippable](http://www.shippable.com/)
-* [hostedci](https://hosted-ci.com/)
 * [Go-Ci](http://www.thoughtworks.com/products/go-continuous-delivery)
 * [snap-ci](http://snap-ci.com)
 * [appveyor](http://www.appveyor.com/)
 
 ## Enlaces
 
-* 
+* [Introducción a la integración continua](https://code2read.com/2015/11/04/ci-integracion-continua-introduccion/)
+* [Instalación de Jenkins en debian](http://red-orbita.com/?p=6622)
+
 
