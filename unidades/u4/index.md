@@ -1,8 +1,6 @@
 # Introducción a la integración continúa y despliegue continuo
 
-## Entorno de desarrollo y producción con aplicaciones web python
-
-### Objetivos
+## Objetivos
 
 * Conocer el software de integración continúa más utilizados
 * Tener una primera experiencia con travis para realizar la integración continúa (en este caso simplemente realizar de forma automática que todos los cambios en nuestra página web estática es válida)
@@ -48,5 +46,5 @@ Es un cambio de paradigma. Es necesario la aceptación de los miembros del equip
 
 * [Introducción a la integración continua](https://code2read.com/2015/11/04/ci-integracion-continua-introduccion/)
 * [Instalación de Jenkins en debian](http://red-orbita.com/?p=6622)
-
+* [QUÉ ES TDD - Test-driven development](https://www.youtube.com/watch?v=q6z3jFZl8oI)
 
