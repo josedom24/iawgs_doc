@@ -1,38 +1,57 @@
-# Introducción al despliegue de aplicaciones python
+# Introducción a la integración continua
 
-## Tarea 1: Entrono de desarrollo 
+Antes de comenzar date de alta en el servicio web [travis](https://travis-ci.org/) con tu cuenta de github. Travis nos permite hacer integración continúa en los proyectos que tenemos guardados en nuestros repositorios de GitHub.
 
-Vamos a desarrollar la aplicación del [tutorial de django 1.10](https://docs.djangoproject.com/en/1.10/intro/tutorial01/). Vamos a configurar tu equipo como entorno de desarrollo para trabajar con la aplicación, para ello:
+## Tarea 1: Corrector ortográfico de documentos markdown (test)
 
-* Clona el repositorio de GitHub: [https://github.com/josedom24/django_tutorial](https://github.com/josedom24/django_tutorial).
-* Crea un entorno virtual e instala las dependencias necesarias para que funcione el proyecto (fichero `requierements.txt`).
-* Comprueba que vamos a trabajar con una base de datos sqlite (`django_tutorial/\settings.py`). ¿Cómo se llama la base de datos que vamos a crear?
-* Crea la base de datos: `python manage.py migrate`. A partir del modelo de datos se crean las tablas de la base de datos.
-* Crea un usuario administrador: `python manage.py createsuperuser`.
-* Entra en la zona de administración (`\admin`) para comprobar que los datos se han añadido correctamente. 
-* Crea dos preguntas, con posibles respuestas. (Nota: El programa tiene problemas con caracteres unicode, no uses acentos, ni ñ,...)
-* Ejecuta el servidor web de desarrollo y comprueba en el navegador que la aplicación está funcionando. 
+Imaginemos que estamos escribiendo documentos markdown y lo guardamos en un repositorio de github. Queremos que cada vez que hagamos una modificación (commit - push) queremos probar (test) si tienes alguna falta de ortografía. Ese proceso lo vamos a hacer de forma automática y continua con travis. Si tenemos activada la IC en travis sobre nuestro repositorio, cada vez que hagamos un push, travis va a crear una máquina (entorno de pruebas), va a clonar nuestro repositorio y va a realizar la prueba (test) que indiquemos en el fichero `.travis.yml`. Cuando termine la prueba nos va mandar un correo informándonos si la prueba ha tenido éxito o no.
 
-```eval_rst
-.. note:: 
-	En este momento, muestra al profesor la aplicación funcionando. Entrega una documentación resumida donde expliques los pasos fundamentales para realizar esta tarea. (2 puntos)
-```
+Por lo tanto realiza los siguientes pasos:
 
-## Tarea 2: Entorno de producción
+* Realiza un fork del repositorio de GitHub: [https://github.com/josedom24/ic-travis-diccionario](https://github.com/josedom24/ic-travis-diccionario).
+* Activa la IC en travis de tu repositorio.
+* Comprueba la prueba que vamos a realizar estudiando el fichero `.travis.yml`.
+* Realiza cambios en los ficheros que están en el directorio `doc` y comprueba en travis como se van ejecutando las pruebas.
 
-Vamos a realizar el despliegue de nuestra aplicación en un entorno de producción, para ello vamos a utilizar una instancia del cloud, para ello:
-
-* Instala en el servidor los servicios necesarios (apache2). Instala el módulo de apache2 para ejecutar código python.
-* Clona el repositorio en el `DocumentRoot` de tu virtualhost.
-* En el entorno de producción no vamos acrear un entorno dvirtual, vamos a instala django en el sistema: `apt install python-django`.
-* Configura un virtualhost en apache2 con la configuración adecuada para que funcione la aplicación. El punto de entrada de nuestro servidor será `django_tutorial//wsgi.py`. Es recomendable que sigas este manual: [https://docs.djangoproject.com/en/1.10/howto/deployment/wsgi/modwsgi/](https://docs.djangoproject.com/en/1.10/howto/deployment/wsgi/modwsgi/)
-* Crea la base de datos.
-* Crea un usuario administrador.
-* Desactiva en la configuración (fichero `settings.py`) el modo debug a False. Para que los errores de ejecución no den información sensible de la aplicación.
-* Muestra la página funcionando.
 
 ```eval_rst
 .. note:: 
-	En este momento, muestra al profesor la aplicación funcionando. Entrega una documentación resumida donde expliques los pasos fundamentales para realizar esta tarea. (3 puntos)
+	Entrega varias capturas de pantalla donde se vea una prueba que termina en éxito (sin faltas de ortografía) y otra que no termine en éxito (1 punto)
 ```
 
+## Tarea 2: Comprobación de html5 válido y despliegue en surge.sh (test y deploy)
+
+En esta tarea queremos desplegar una página html5 en el servicio surge.sh, además queremos comprobar si el código html5 es válido. Estas dos operaciones: comprobar si el html5 es válido (test) y el despliegue en surge.sh (deploy) lo vamos a hacer con travis de forma automática (IC y DC).
+
+Antes de empezar vamos a aprender a trabajar con [surge.sh](http://surge.sh/):
+
+* Siguiendo las instrucciones de esta [página](https://linuxconfig.org/how-to-install-nodejs-on-debian-9-stretch-linux) instala NodeJS y npm.
+* Instala surge.sh
+* Despliega una pequeña página web en el dominio `tunombre.surge.sh`.
+
+```eval_rst
+.. note:: 
+	Entrega una descripción con los pasos fundamentales para la instalación y una captura de la página web que has realizado. (1 punto)
+```
+
+Vamos a añadir la funcionalidad de IC y DC con travis, para ello:
+
+* Realiza un fork del repositorio de GitHub: [https://github.com/josedom24/ic-travis-html5](https://github.com/josedom24/ic-travis-html5)
+* Activa la IC en travis de tu repositorio.
+* Comprueba la prueba y el despliegue que vamos a realizar estudiando el fichero `.travis.yml`.
+* Modifica el fichero `.travis.yml` para poner el nombre de dominio que vas a utilziar.
+* Para que travis pueda hacer el despliegue en surge le tenemos que indicar un TOKEN. Genera el token:
+	
+	surge token
+
+* Crea dos variables de entorno en *settings* del proyecto travis:
+	
+    * SURGE_LOGIN: Indica el correo electrónico que has utilizado como lógin en surge
+    * SURGE_TOKEN: Indica el TOKEN que has obtenido en el paso anterior.
+
+* Realiza cambios en el fichero index.html del directorio `_build` y comprueba, que si el código html5 es válido se despliega y puedes aceder a la página web. Si el código html5 no es válido no se realiza el despliegue y te mandan un correo informando de la incidencia.
+
+```eval_rst
+.. note:: 
+	Entrega una descripción con los pasos fundamentales que has realizado. Entrega varias capturas de pantalla donde se vea una prueba que termina en éxito (sin faltas de ortografía) y otra que no termine en éxito (1 punto)
+```

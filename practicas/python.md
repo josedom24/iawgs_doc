@@ -1,6 +1,6 @@
 # Introducción al despliegue de aplicaciones python
 
-## Tarea 1: Entrono de desarrollo 
+## Tarea 1: Entorno de desarrollo 
 
 Vamos a desarrollar la aplicación del [tutorial de django 1.10](https://docs.djangoproject.com/en/1.10/intro/tutorial01/). Vamos a configurar tu equipo como entorno de desarrollo para trabajar con la aplicación, para ello:
 
@@ -24,7 +24,7 @@ Vamos a realizar el despliegue de nuestra aplicación en un entorno de producci�
 
 * Instala en el servidor los servicios necesarios (apache2). Instala el módulo de apache2 para ejecutar código python.
 * Clona el repositorio en el `DocumentRoot` de tu virtualhost.
-* En el entorno de producción no vamos acrear un entorno dvirtual, vamos a instala django en el sistema: `apt install python-django`.
+* En el entorno de producción no vamos acrear un entorno virtual, vamos a instala django en el sistema: `apt install python-django`.
 * Configura un virtualhost en apache2 con la configuración adecuada para que funcione la aplicación. El punto de entrada de nuestro servidor será `django_tutorial//wsgi.py`. Es recomendable que sigas este manual: [https://docs.djangoproject.com/en/1.10/howto/deployment/wsgi/modwsgi/](https://docs.djangoproject.com/en/1.10/howto/deployment/wsgi/modwsgi/)
 * Crea la base de datos.
 * Crea un usuario administrador.
