@@ -82,7 +82,7 @@ Ahora queremos que este proceso de "build" se haga de manera automática con tra
 	  only:
 	  - master
 	install:
-	- pip install pelican ghp-import
+	- pip install pelican ghp-import markdown
 	script:
 	- make publish github
 
