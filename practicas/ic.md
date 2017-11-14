@@ -55,3 +55,41 @@ Vamos a añadir la funcionalidad de IC y DC con travis, para ello:
 .. note:: 
 	Entrega una descripción con los pasos fundamentales que has realizado. Entrega varias capturas de pantalla donde se vea una prueba que termina en éxito (sin faltas de ortografía) y otra que no termine en éxito (1 punto)
 ```
+
+## Tarea 3: Despliegue de un blog desarrollado con Pelican en GitHub Page (build, deploy)
+
+En esta última tarea vamos a construir una página web (blog) con una herramienta escrita en python que se llama Pelican, y la vamos a desplegar en GitHub Page. Todo esto lo vamos a realizar co IC con Travis. Sigue los siguientes pasos:
+
+* Crea un repositorio en GitHub con un README.md, crea también una rama `gh-page` donde vamos  a publicar el blog.
+* Crea un entorno virtual e instala Pelican (Puedes seguir las instrucciones que encenstras en esta página: [https://www.fullstackpython.com/blog/generating-static-websites-pelican-jinja2-markdown.html](https://www.fullstackpython.com/blog/generating-static-websites-pelican-jinja2-markdown.html)). (En el artículo se explica como crear un entrono virtual con python3, pero también funciona con un virtualenv de python2).
+* Crea un proyecto, en tu repositorio local de github, con `pelican-quickstart`, aquí es muy importante que pongas la URL base (si suponemos que he creado un repositorio llamado `ic-blog` la URL base sería: `https://josedom24.github.io/ic-blog`).
+* Con `make html` se genera el contenido estático, comprueba el resultado en el directorio `output`.
+* Con `maje devserver` se ejecuta un servidor web para desarrollo, con `make stopserver` se detiene dicho servidor.
+* Siguiendo las instrucciones de la página anterior, crea un post en el blog.
+
+```eval_rst
+.. note:: 
+	Entrega una captura de pantalla donde se vea el blog con la nueva entrada en el servidor web de desarrollo. (1 punto)
+```
+
+Ahora queremos que este proceso de "build" se haga de manera automática con travis. Además tenemos la opción `make publish github` que realiza el despliegue en Github Page, esto también queremos hacerlos de forma automática. Vamos por pasos:
+
+* Activa tu repositorio en Travis.
+* Crea el fichero `.travis.yml` con el siguiente contenido:
+
+	language: python
+	branches:
+	  only:
+	  - master
+	install:
+	- pip install pelican ghp-import
+	script:
+	- make publish github
+
+* Sigue las instrucciones de este artículo: [Publish your Pelican blog on Github pages via Travis-CI](http://blog.mathieu-leplatre.info/publish-your-pelican-blog-on-github-pages-via-travis-ci.html) para crear un TOKEN en github, encriptarlo y añadirlo en el fichero `.travis.yml`.
+* Por último, cómo indica en el artículo, modifica el fichero `Makefile` para poder desplegar en github usando tu TOKEN. (Sustituye la variable `$(TRAVIS_REPO_SLUG)` pon el nombre de tu repositorio.)
+
+```eval_rst
+.. note:: 
+	Describe los pasos más importantes para realzar dicha práctica, y entrega una captura de pantalla donde se vea el blog con la nueva entrada en el GitHub Page. (1 punto)
+```
