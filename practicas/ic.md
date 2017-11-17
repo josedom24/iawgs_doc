@@ -64,7 +64,7 @@ En esta última tarea vamos a construir una página web (blog) con una herramien
 * Crea un entorno virtual e instala Pelican (Puedes seguir las instrucciones que encenstras en esta página: [https://www.fullstackpython.com/blog/generating-static-websites-pelican-jinja2-markdown.html](https://www.fullstackpython.com/blog/generating-static-websites-pelican-jinja2-markdown.html)). (En el artículo se explica como crear un entrono virtual con python3, pero también funciona con un virtualenv de python2).
 * Crea un proyecto, en tu repositorio local de github, con `pelican-quickstart`, aquí es muy importante que pongas la URL base (si suponemos que he creado un repositorio llamado `ic-blog` la URL base sería: `https://josedom24.github.io/ic-blog`).
 * Con `make html` se genera el contenido estático, comprueba el resultado en el directorio `output`.
-* Con `maje devserver` se ejecuta un servidor web para desarrollo, con `make stopserver` se detiene dicho servidor.
+* Con `make devserver` se ejecuta un servidor web para desarrollo, con `make stopserver` se detiene dicho servidor.
 * Siguiendo las instrucciones de la página anterior, crea un post en el blog.
 
 ```eval_rst
