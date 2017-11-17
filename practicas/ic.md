@@ -53,7 +53,7 @@ Vamos a añadir la funcionalidad de IC y DC con travis, para ello:
 
 ```eval_rst
 .. note:: 
-	Entrega una descripción con los pasos fundamentales que has realizado. Entrega varias capturas de pantalla donde se vea una prueba que termina en éxito (sin faltas de ortografía) y otra que no termine en éxito (1 punto)
+	Entrega una descripción con los pasos fundamentales que has realizado. Entrega varias capturas de pantalla donde se vea una prueba que termina en éxito (HTML5 válido) y otra que no termine en éxito (1 punto)
 ```
 
 ## Tarea 3: Despliegue de un blog desarrollado con Pelican en GitHub Page (build, deploy)
