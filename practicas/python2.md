@@ -120,7 +120,7 @@ Y añade al final la siguiente línea:
 
 ```eval_rst
 .. note:: 
-	Entrega una documentación donde indiques los pasos para realizar una copia de seguridad. Si puedes realiza un pequeño script que automatice dicha tarea. (3 puntos)
+	Entrega una breve documentación donde expliques los pasos más importantes para el despliegue en pythonanywhere (3 puntos)
 ```
 
 ```eval_rst
