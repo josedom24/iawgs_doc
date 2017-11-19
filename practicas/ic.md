@@ -98,7 +98,7 @@ Ahora queremos que este proceso de "build" se haga de manera automática con tra
 
 Vamos a trabajar con el repositorio de la aplicación `django_tutorial`. Esta aplicación tiene definidas una serie de test, que podemos estudiar en el fichero `tests.py` del directorio `polls`.
 
-Para ejecutar las pruebas unitarias, ejecutamos la instrucción `python manga.py test`.
+Para ejecutar las pruebas unitarias, ejecutamos la instrucción `python manage.py test`.
 
 ```eval_rst
 .. note:: 
