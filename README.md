@@ -61,10 +61,17 @@
 * Despliegue manual de nuestra página en el servicio surge.sh
 * Entender el concepto de despliegue continúo y comprobar la función de despliegue de travis sobre surge.sh
 
+#### 7. Despliegue de aplicación web python en PaaS
+
+* Conocer las caracterśiticas que nos ofrece el cloud computing.
+* Conocer las características y funcionalidades que obtenemos al usar la capa de PaaS
+* Realizar un despliegue en un sistema PaaS: Heroku
+
+
 #### 6. Integración continua de una aplicación web python
 
-#### 7. Despliegue de aplicación web python en IaaS
-#### 8. Despliegue de aplicación web python en PaaS
+
+
 #### 9. Despliegue de aplicación web python en contenedores
 #### 10. Implantación de aplicación web JAVA en un entorno local
 #### 11. Integración continúa de una aplicación Java
