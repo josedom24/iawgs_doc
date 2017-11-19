@@ -93,3 +93,29 @@ Ahora queremos que este proceso de "build" se haga de manera automática con tra
 .. note:: 
 	Describe los pasos más importantes para realzar dicha práctica, y entrega una captura de pantalla donde se vea el blog con la nueva entrada en el GitHub Page. (1 punto)
 ```
+
+## Tarea 4: Integración continúa de aplicación django (Test + Deploy)
+
+Vamos a trabajar con el repositorio de la aplicación `django_tutorial`. Esta aplicación tiene definidas una serie de test, que podemos estudiar en el fichero `tests.py` del directorio `polls`.
+
+Para ejecutar las pruebas unitarias, ejecutamos la instrucción `python manga.py test`.
+
+```eval_rst
+.. note:: 
+	Estudia las distintas pruebas que se han realizado, y modifica el código de la aplicación para que al menos una de ella no se ejecute de manera exitosa. (1 punto)
+```
+
+A continuación vamos a configurar la integración continúa para que cada vez que hagamos un commit se haga la ejecución de test en travis.
+
+```eval_rst
+.. note:: 
+	Crea un fichero ``.travis.yml`` para realizar de los tests en travis. Entrega el fichero ``.travis.yml``, una captura de pantalla con un resltado existoso de la IC y otro con un error. (2 puntos)
+```
+
+Siguiendo la guía de esta página: [Continuous delivery of a Django app from Travis CI to PythonAnywhere](https://flowfx.de/blog/continuous-delivery-of-a-django-app-from-travis-ci-to-pythonanywhere/). Para además de realizar los tests, se haga un despliegue al servicio **pythonanyhere**.
+
+```eval_rst
+.. note:: 
+	Entrega un breve descripción de los pasos más importantes para realizar el despliegue desde travis. (3 puntos)
+```
+
