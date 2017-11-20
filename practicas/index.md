@@ -9,6 +9,7 @@
    php2
    python
    python2
+   python3
    ic
 ```
 
