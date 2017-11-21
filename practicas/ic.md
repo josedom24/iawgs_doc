@@ -109,7 +109,7 @@ A continuación vamos a configurar la integración continúa para que cada vez q
 
 ```eval_rst
 .. note:: 
-	Crea un fichero ``.travis.yml`` para realizar de los tests en travis. Entrega el fichero ``.travis.yml``, una captura de pantalla con un resltado existoso de la IC y otro con un error. (1 punto)
+	Crea un fichero ``.travis.yml`` para realizar de los tests en travis. Entrega el fichero ``.travis.yml``, una captura de pantalla con un resltado existoso de la IC y otro con un error.(1 punto)
 ```
 
 Siguiendo la guía de esta página: [Continuous delivery of a Django app from Travis CI to PythonAnywhere](https://flowfx.de/blog/continuous-delivery-of-a-django-app-from-travis-ci-to-pythonanywhere/). Para además de realizar los tests, se haga un despliegue al servicio **pythonanyhere**.
