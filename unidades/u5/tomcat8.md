@@ -39,11 +39,9 @@ Para acceder a la zona de administración:
 
 ![tomcat](img/tomcat2.png)
  
-Además se instala una aplicación para gestionar los virtual host en tomcat, para acceder a ella, añadimos el siguiente perfil y otro usuario en el fichero anterior:
+## Despliegue de aplicaciones mediante la interfaz web
 
-	<role rolename="admin-gui"/>
-	<user username="tomcat" password="s3cret" roles="admin-gui"/>
+Utilizaremos la herramienta anterior para explicar cómo desplegar una aplicación, por ejemplo .war. Simplemente bajamos con el scroll hasta encontrar una sección llamada "WAR file to deploy". Seleccionamos el fichero .war y le damos al botón "Deploy".
 
-Y accedemos:
 
-![tomcat](img/tomcat3.png)
+
