@@ -8,5 +8,6 @@
    u2/index
    u3/index
    u4/index
+   u5/index
 ```
 

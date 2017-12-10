@@ -6,7 +6,7 @@ En el siguiente documento se explicará como implantar un contenedor de servlets
 
 Para instalar tomcat8 desde repositorios:
 	
-	# apt install tomcat8
+	apt install tomcat8
 
 Por dependecia va a instalar el paquete `openjdk-8-jre-headless`, que corresponde a una implementación de la JVM mínima para poder ejecuar nuestros programas java.
 
@@ -16,9 +16,9 @@ Desde este momento tendremos Tomcat ejecutandose y sirviendo en el puerto 8080.
 
 Para gestionar el servicio tomcat:
 
-	# systemctl stop|start|restart|status tomcat8
+	systemctl stop|start|restart|status tomcat8
 
-Si estamos instalando tomcat8 en una instancia de OpenStack, y por las limitaciones de las máquinas virtuales en la generación pseudoaleatoria, es necesario modificar el fichero `/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/security/java.security`, y cambiar la siguiente línea:
+Si estamos instalando tomcat8 en una instancia de OpenStack, y por las limitaciones de las máquinas virtuales en la generación pseudoaleatoria, es necesario modificar el fichero `/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/security/java.security`, y cambiar la siguiente línea:
 
 	securerandom.source=file:/dev/./urandom
 
@@ -30,7 +30,7 @@ Esta sección la iniciaremos utilizando una herramienta que nos proporciona la f
 
 	# apt install tomcat8-admin
 
-Una vez instalado debemos crear un usuario con el rol manager para acceder a él. Añadimos una línea similar a la siguiente al fichero `/etc/tomcat6/tomcat-users.xml`:
+Una vez instalado debemos crear un usuario con el rol manager para acceder a él. Añadimos una línea similar a la siguiente al fichero `/etc/tomcat8/tomcat-users.xml`:
 
 	<role rolename="manager-gui"/>
 	<user username="tomcat" password="s3cret" roles="manager-gui"/>
@@ -129,4 +129,4 @@ Su utilización es similar a la del fichero .htaccess de Apache.
 
 ### web.xml
 
-Su ruta real es `aplicacion/web-inf/web.xml`, se trata de un descriptor de despliegue. Al igual que con el fichero `context.xml`, Tomcat posee un `web.xml`alojado en `/etc/tomcat6/web.xml` que se ejecuta antes del propio de cada aplicación. Con él se pueden activar y desactivar características como el compilador de JSP.
+Su ruta real es `aplicacion/web-inf/web.xml`, se trata de un descriptor de despliegue. Al igual que con el fichero `context.xml`, Tomcat posee un `web.xml`alojado en `/etc/tomcat8/web.xml` que se ejecuta antes del propio de cada aplicación. Con él se pueden activar y desactivar características como el compilador de JSP.
