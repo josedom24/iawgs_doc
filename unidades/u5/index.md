@@ -17,7 +17,9 @@
 * [Estructura de directorio / ficheros en Tomcat](http://emanuelpeg.blogspot.com/2009/07/como-es-la-estructura-de-directorios-de.html)
 * [Archivos WARS](http://www.osmosislatina.com/tomcat/wars.htm)
 * [CMS escritos en Java](http://java-source.net/open-source/content-managment-systems)
+* [Aplicaciones Java en Bitnami](https://bitnami.com/tag/java)
 * [Conector Mysql](https://www.mysql.com/products/connector/)
 * [Conector PostgreSQL](https://jdbc.postgresql.org/)
+
 
 
