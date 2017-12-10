@@ -99,7 +99,8 @@ El más importante es `/etc/tomcat8/server.xml`, cuyo contenido define cómo est
 
 * Subelementos de Engine:
 
-		<Realm className="org.apache.catalina.realm.UserDatabaseRealm" resourceName="UserDatabase"/> 
+		<Realm className="org.apache.catalina.realm.UserDatabaseRealm" 
+		resourceName="UserDatabase"/> 
 
 	* Define la seguridad, y tipo de acceso a Tomcat.
 
@@ -124,7 +125,7 @@ Fichero de configuración específico de cada aplicación. Si alguna aplicación
 		    <WatchedResource>${catalina.base}/conf/web.xml</WatchedResource>
 		</Context>
 
-	Su utilización es similar a la del fichero .htaccess de Apache.
+Su utilización es similar a la del fichero .htaccess de Apache.
 
 ### web.xml
 

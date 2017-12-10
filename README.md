@@ -57,27 +57,35 @@
 * Identificación de problemas: Si seguimos una metodología ágil es deseable que todos los cambios que vayan realizando los programadores se vayan probando, analizando, ... de forma continúa
 * Identificación de problemas: ¿Y si esas tareas las automatizamos? -> Integración continúa
 
-#### 5. Integración y despliegue automático de páginas estáticas con Travis y surge
+#### 5. Entorno de desarrollo y producción con aplicaciones web python
+
+#### 6. Depliegue de CMS python: Mezzanine
+
+#### 7. Introducción a la integración continua
 
 * Conocer el software de integración continúa más utilizados
 * Tener una primera experiencia con travis para realizar la integración continúa (en este caso simplemente realizar de forma automática que todos los cambios en nuestra página web estática es válida)
 * Despliegue manual de nuestra página en el servicio surge.sh
 * Entender el concepto de despliegue continúo y comprobar la función de despliegue de travis sobre surge.sh
 
-#### 7. Despliegue de aplicación web python en PaaS
+
+#### 8. Despliegue de aplicaciones JAVA/Tomcat
+
+
+#### 9. Despliegue de aplicación web python en PaaS
 
 * Conocer las caracterśiticas que nos ofrece el cloud computing.
 * Conocer las características y funcionalidades que obtenemos al usar la capa de PaaS
 * Realizar un despliegue en un sistema PaaS: Heroku
 
 
-#### 6. Integración continua de una aplicación web python
+#### 10. Integración continua de una aplicación web python
 
 
 
-#### 9. Despliegue de aplicación web python en contenedores
-#### 10. Implantación de aplicación web JAVA en un entorno local
-#### 11. Integración continúa de una aplicación Java
+#### 11. Despliegue de aplicación web python en contenedores
+#### 12. Implantación de aplicación web JAVA en un entorno local
+#### 13. Integración continúa de una aplicación Java
 
 
 
