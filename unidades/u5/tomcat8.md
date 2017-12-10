@@ -60,7 +60,11 @@ Implantar una aplicación desde la terminal, tampoco es tan dificíl, ya que por
 
 ## Administración desde la terminal
 
-Es hora de hablar de los ficheros de configuración. El más importante es `/etc/tomcat8/server.xml`, cuyo contenido define cómo está formado nuestro servidor. Las secciones más importente de este fichero son:
+Es hora de hablar de los ficheros de configuración. 
+
+### server.xml
+
+El más importante es `/etc/tomcat8/server.xml`, cuyo contenido define cómo está formado nuestro servidor. Las secciones más importente de este fichero son:
 
 * Componente Server
 		
@@ -75,5 +79,53 @@ Es hora de hablar de los ficheros de configuración. El más importante es `/etc
 	
 	* name: Nombre utilizado en los ficheros de log, administración y gestión, debe ser distínto para cada service.
 
-* 
+* Subelemento Conector
 
+		<Connector port="8080" protocol="HTTP/1.1" 
+               connectionTimeout="20000" 
+               URIEncoding="UTF-8" 
+               redirectPort="8443" /> 
+
+	* port : Puerto en el que recibe las peticiones.
+	* protocol : 'HTTP/1.1' ó 'AJP/1.3'.
+	* redirectPort : Si la petición se hace por medio de SSL, se reenvíara a este puerto.
+
+* Subelemento Engine
+
+		<Engine name="Catalina" defaultHost="localhost"> 
+
+	* name : Nombre utilizado para la administración y ficheros de log.
+	* defaultHost : Host por defecto que resuelve las peticiones si no se indica otro Host concreto.
+
+* Subelementos de Engine:
+
+		<Realm className="org.apache.catalina.realm.UserDatabaseRealm" resourceName="UserDatabase"/> 
+
+	* Define la seguridad, y tipo de acceso a Tomcat.
+
+		<Host name="localhost"  appBase="webapps" 
+            unpackWARs="true" autoDeploy="true" 
+            xmlValidation="false" xmlNamespaceAware="false"> 
+		</Host> 
+
+	* name : Nombre del host virtual.
+	* appBase : Ruta relativa desde <TOMCAT_HOME> donde se despliegan las aplicaciones.
+	* unpackWARs : Indica si se deben desempaquetar o no los .war depositados en appBase.
+	* autoDeploy : Indica si se desplegarán las aplicaciones automáticamente o no.
+
+### context.xml
+
+Fichero de configuración específico de cada aplicación. Si alguna aplicación se despliega sin fichero `context.xml`, se aplicará la configuración del situado en 
+`/etc/tomcat8/context.xml`.
+
+		<?xml version="1.0" encoding="UTF-8"?>
+		<Context>
+		    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+		    <WatchedResource>${catalina.base}/conf/web.xml</WatchedResource>
+		</Context>
+
+	Su utilización es similar a la del fichero .htaccess de Apache.
+
+### web.xml
+
+Su ruta real es `aplicacion/web-inf/web.xml`, se trata de un descriptor de despliegue. Al igual que con el fichero `context.xml`, Tomcat posee un `web.xml`alojado en `/etc/tomcat6/web.xml` que se ejecuta antes del propio de cada aplicación. Con él se pueden activar y desactivar características como el compilador de JSP.
