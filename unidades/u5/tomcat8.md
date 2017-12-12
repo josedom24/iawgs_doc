@@ -43,7 +43,7 @@ Para acceder a la zona de administración:
 
 Utilizaremos la herramienta anterior para explicar cómo desplegar una aplicación, por ejemplo .war. Simplemente bajamos con el scroll hasta encontrar una sección llamada "WAR file to deploy". Seleccionamos el fichero .war y le damos al botón "Deploy".
 
-Puedes bajarte el fichero war desde el siguiente [enlace](war/RequestDispatcher.war).
+Puedes bajarte el fichero war desde el siguiente [enlace](https://github.com/josedom24/iawgs_doc/raw/master/unidades/u5/war/RequestDispatcher.war).
 
 ![tomcat](img/tomcat3.png)
 
