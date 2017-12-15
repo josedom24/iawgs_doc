@@ -32,7 +32,7 @@ Realiza la configuración necesaria en apache2 y tomcat para que la aplicación 
 	* Escribe una guía de los pasas fundamentales para realizar la integración.
 	* Entrega una captura de pantalla donde se vea la aplicación funcionando.
 
-	3 puntos
+	2 puntos
 ```
 
 
