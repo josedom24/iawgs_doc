@@ -1,7 +1,6 @@
 # Depliegue de CMS java
 
-En estas práctica vamos a desplegar un CMS escrito en java. Puedes escoger la aplicación que vas a desplegar de [CMS escritos en Java](http://java-source.net/open-source/content-managment-systems) o de
-* [Aplicaciones Java en Bitnami](https://bitnami.com/tag/java).
+En estas práctica vamos a desplegar un CMS escrito en java. Puedes escoger la aplicación que vas a desplegar de [CMS escritos en Java](http://java-source.net/open-source/content-managment-systems) o de [Aplicaciones Java en Bitnami](https://bitnami.com/tag/java).
 
 
 
