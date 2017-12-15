@@ -3,11 +3,6 @@
 En estas práctica vamos a desplegar un CMS escrito en java. Puedes escoger la aplicación que vas a desplegar de [CMS escritos en Java](http://java-source.net/open-source/content-managment-systems) o de [Aplicaciones Java en Bitnami](https://bitnami.com/tag/java).
 
 
-
-## Tarea 1: Instalación de Mezzanine en el entorno de desarrollo
-
-Instala localmente (usando un entrono virtual) el CMS Mezzazine. Realiza una modificación en la página web. Guarda los ficheros generados durante la instalación en un repositorio github.
-
 ```eval_rst
 .. note:: 
 	Indica la aplicación que vas a instalar. Indica las características principales de la aplicación. Recuerda que tienes que hacer un despliegue en el servidor Tomcat que tienes instalado (no puedes hacer una instalación desde un fichero ejecutable.
