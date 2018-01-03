@@ -13,16 +13,13 @@
 
 * [Introducción a docker](https://www.josedomingo.org/pledin/2015/12/introduccion-a-docker/)
 * [Instalación de docker en debian](https://docs.docker.com/engine/installation/linux/docker-ce/debian/)
-* [Nuestro primer contenedor "Hola Mundo"](./primerospasos)
+* [Nuestro primer contenedor "Hola Mundo"](http://iaw.readthedocs.io/es/latest/unidades/u6/primerospasos.html)
 
 ## Enlaces
 
-* [Estructura de directorio / ficheros en Tomcat](http://emanuelpeg.blogspot.com/2009/07/como-es-la-estructura-de-directorios-de.html)
-* [Archivos WARS](http://www.osmosislatina.com/tomcat/wars.htm)
-* [CMS escritos en Java](http://java-source.net/open-source/content-managment-systems)
-* [Aplicaciones Java en Bitnami](https://bitnami.com/tag/java)
-* [Conector Mysql](https://www.mysql.com/products/connector/)
-* [Conector PostgreSQL](https://jdbc.postgresql.org/)
+* [Docker](https://www.docker.com/)
+* [rkt](https://coreos.com/rkt/)
+* [rkt us docker](https://coreos.com/rkt/docs/latest/rkt-vs-other-projects.html#rkt-vs-docker)
 
 
 
