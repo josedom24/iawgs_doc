@@ -13,7 +13,7 @@
 
 * [Introducción a docker](https://www.josedomingo.org/pledin/2015/12/introduccion-a-docker/)
 * [Instalación de docker en debian](https://docs.docker.com/engine/installation/linux/docker-ce/debian/)
-* [Nuestro primer contenedor "Hola Mundo"](primerospasos)
+* [Nuestro primer contenedor "Hola Mundo"](./primerospasos)
 
 ## Enlaces
 
