@@ -9,5 +9,6 @@
    u3/index
    u4/index
    u5/index
+   u6/index
 ```
 
