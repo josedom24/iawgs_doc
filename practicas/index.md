@@ -12,5 +12,6 @@
    python3
    ic
    java
+   docker
 ```
 
