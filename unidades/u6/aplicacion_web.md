@@ -1,4 +1,4 @@
-# Ejecutando una aplicación web en docker
+# Ejecutando un servicio en docker
 
 ## Trabajando con imágenes
 
