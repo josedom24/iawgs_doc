@@ -16,7 +16,8 @@
 * [Nuestro primer contenedor "Hola Mundo"](http://iaw.readthedocs.io/es/latest/unidades/u6/primerospasos.html)
 * [Ejecutando un servicio en docker](http://iaw.readthedocs.io/es/latest/unidades/u6/servicio.html)
 * [Gestionando el registro Docker Hub](http://iaw.readthedocs.io/es/latest/unidades/u6/registro.html)
-* 
+* [Dockerfile: Creación de imágenes docker](https://www.josedomingo.org/pledin/2016/02/dockerfile-creacion-de-imagenes-docker/)
+* [Ejemplos de ficheros Dockerfile, creando imágenes docker](https://www.josedomingo.org/pledin/2016/02/ejemplos-de-ficheros-dockerfile-creando-imagenes-docker/)
 
 ## Enlaces
 
