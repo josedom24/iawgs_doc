@@ -16,3 +16,30 @@ En estas práctica vamos a empezar a trabajar con la tecnología de contenedores
 	* Repite el ejercicio con un servidor mysql (no es necesario hacer el último punto). Demuestra que puedes acceder al servidor mysql. (2 puntos)
 ```
 
+## Tarea 2: Creación de una imagen docker con Dockerfile
+
+Realiza un Dockerfile que nos permita crear una imagen desde la que se puedan crear contenedores que sirvan una página web en un servidor web nginx. La página web que se sirve debe ser una plantilla html5.
+
+```eval_rst
+.. note:: 
+	* Entrega el fichero Dockerfile.
+	* Documenta los pasos que has dado para crear un contenedor que sirva la página web.
+	* ¿Qué pasos tienes que dar para modificar el contenido dela página? Documenta brevemente los pasos que has dado.
+	(2 puntos)
+```
+
+## Tarea 3: Creación automática de una imagen docker en Docker Hub
+
+Realiza los siguinetes pasos:
+
+* Crea un repositorio en GitHub, y sube desde una máuina donde no tengas docker instalado el contexto (Dockerfile y ficheros necesarios) del ejercicio anterior.
+* Crea desde Docker Hub un "Automated build" y da permisos a Docker Hub para que acceda a tu respositorio GitHub.
+* Comprueba que se ha creado la nueva imagen.
+* Descarga la nueva imagen en tu servidor Docker y crea un nuevo contenedor.
+
+```eval_rst
+.. note:: 
+	* Documenta los pasos que has dado para realizar la tarea.
+	* ¿Qué pasos tienes que dar para modificar el contenido dela página? Documenta brevemente los pasos que has dado. Y muestra la nueva página con los cambios que has introducido.
+	(3 puntos)
+```

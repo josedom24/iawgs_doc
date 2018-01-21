@@ -18,6 +18,7 @@
 * [Gestionando el registro Docker Hub](http://iaw.readthedocs.io/es/latest/unidades/u6/registro.html)
 * [Dockerfile: Creación de imágenes docker](https://www.josedomingo.org/pledin/2016/02/dockerfile-creacion-de-imagenes-docker/)
 * [Ejemplos de ficheros Dockerfile, creando imágenes docker](https://www.josedomingo.org/pledin/2016/02/ejemplos-de-ficheros-dockerfile-creando-imagenes-docker/)
+* [Gestionando el registro Docker Hub](https://www.josedomingo.org/pledin/2016/02/gestionando-el-registro-docker-hub/)
 
 ## Enlaces
 
