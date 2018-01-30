@@ -19,6 +19,9 @@
 * [Dockerfile: Creación de imágenes docker](https://www.josedomingo.org/pledin/2016/02/dockerfile-creacion-de-imagenes-docker/)
 * [Ejemplos de ficheros Dockerfile, creando imágenes docker](https://www.josedomingo.org/pledin/2016/02/ejemplos-de-ficheros-dockerfile-creando-imagenes-docker/)
 * [Gestionando el registro Docker Hub](https://www.josedomingo.org/pledin/2016/02/gestionando-el-registro-docker-hub/)
+* [Enlazando contenedores docker](https://www.josedomingo.org/pledin/2016/02/enlazando-contenedores-docker/)
+* [Gestión del almacenamiento en docker](https://www.josedomingo.org/pledin/2016/05/gestion-del-almacenamiento-en-docker/)
+* [Gestionando el almacenamiento docker con Dockerfile](https://www.josedomingo.org/pledin/2016/11/gestionando-el-almacenamiento-docker-con-dockerfile/)
 
 ## Enlaces
 
