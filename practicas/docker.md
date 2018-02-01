@@ -33,9 +33,9 @@ Realiza un `Dockerfile` que nos permita crear una imagen desde la que se puedan 
 Queremos configurar el servidor nginx por medio del uso de variables de entorno, para ello:
 
 * Crea en el fichero `Dockerfile` las variables de entorno siguiente:
-	* `DOCUMENTROOT`: Indica el directorio raiz del servidor, por defecto será `/var/www/html`.
-	* `SERVER_NAME`: Indica el nombre del servidor, (directiva `server_name`), por defect es `_`.
-* Tendrás que crear un script `run.sh` que será el encargado de configurar nginx antes de ejectura el proceso, y será el proceso que ejecuta el contenedor.
+	* `DOCUMENTROOT`: Indica el directorio raíz del servidor, por defecto será `/var/www/html`.
+	* `SERVER_NAME`: Indica el nombre del servidor, (directiva `server_name`), por defecto es `_`.
+* Tendrás que crear un script `run.sh` que será el encargado de configurar nginx antes de ejecuta el proceso, y será el proceso que ejecuta el contenedor.
 * Recuerda que los ficheros tendrán que ser copiados al directorio donde se indica en la variable de entorno `DOCUMENTROOT`.
 
 ```eval_rst
@@ -48,16 +48,16 @@ Queremos configurar el servidor nginx por medio del uso de variables de entorno,
 
 ## Tarea 4: Creación automática de una imagen docker en Docker Hub
 
-Realiza los siguinetes pasos:
+Realiza los siguientes pasos:
 
-* Crea un repositorio en GitHub, y sube desde una máuina donde no tengas docker instalado el contexto (`Dockerfile` y ficheros necesarios) del ejercicio anterior.
-* Crea desde Docker Hub un "Automated build" y da permisos a Docker Hub para que acceda a tu respositorio GitHub.
+* Crea un repositorio en GitHub, y sube desde una máquina donde no tengas docker instalado el contexto (`Dockerfile` y ficheros necesarios) del ejercicio anterior.
+* Crea desde Docker Hub un "Automated build" y da permisos a Docker Hub para que acceda a tu repositorio GitHub.
 * Comprueba que se ha creado la nueva imagen.
 * Descarga la nueva imagen en tu servidor Docker y crea un nuevo contenedor.
 
 ```eval_rst
 .. note:: 
 	* Documenta los pasos que has dado para realizar la tarea.
-	* ¿Qué pasos tienes que dar para modificar el contenido dela página? Documenta brevemente los pasos que has dado. Y muestra la nueva página con los cambios que has introducido.
+	* ¿Qué pasos tienes que dar para modificar el contenido de la página? Documenta brevemente los pasos que has dado. Y muestra la nueva página con los cambios que has introducido.
 	(3 puntos)
 ```
