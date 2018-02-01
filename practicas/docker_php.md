@@ -6,7 +6,7 @@
 * Es necesario tener un contenedor con mysql donde vamos a crear la base de datos y los datos de la aplicación. El script para generar la base de datos y los registros lo encuentras en el repositorio y se llama `schema.sql`.
 * Ejecuta el contenedor mysql y carga los datos del script `schema.sql`. Para más [información](https://gist.github.com/spalladino/6d981f7b33f6e0afe6bb).
 * El contenedor mysql debe tener un volumen para guardar la base de datos.
-* Crea una imagen docker con la aplicación desde una imagen base de debian o ubuntu. Ten en cuenta que el fichero de configuración de la base de datos (`core\controller\Databse.php`) lo tienes que configurar utilizando las variables de entorno del contenedor mysql.
+* Crea una imagen docker con la aplicación desde una imagen base de debian o ubuntu. Ten en cuenta que el fichero de configuración de la base de datos (`core\controller\Database.php`) lo tienes que configurar utilizando las variables de entorno del contenedor mysql.
 * La imagen la tienes que crear en tu máquina con el comando `docker build`.
 * Crea un contenedor a partir de la imagen anterior, enlazado con el contenedor mysql, y comprueba que está funcionando (Usuario: **admin**, contraseña: **admin**)
 * El contenedor que creas debe tener un volumen para guardar los logs de apache2.
