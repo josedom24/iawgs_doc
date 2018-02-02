@@ -3,7 +3,7 @@
 ## Tarea 1: Ejecución de una aplicación web PHP en docker (1)
 
 * Queremos ejecutar en un contenedor docker la aplicación web escrita en PHP: bookMedik ([https://github.com/evilnapsis/bookmedik](https://github.com/evilnapsis/bookmedik)).
-* Es necesario tener un contenedor con mysql donde vamos a crear la base de datos y los datos de la aplicación. El script para generar la base de datos y los registros lo encuentras en el repositorio y se llama `schema.sql`.
+* Es necesario tener un contenedor con mysql donde vamos a crear la base de datos y los datos de la aplicación. El script para generar la base de datos y los registros lo encuentras en el repositorio y se llama `schema.sql`. Debes crear un usuario con su contraseña en la base de datos. La base de datos se llama `bookmedik` y se crea al ejecutar el script.
 * Ejecuta el contenedor mysql y carga los datos del script `schema.sql`. Para más [información](https://gist.github.com/spalladino/6d981f7b33f6e0afe6bb).
 * El contenedor mysql debe tener un volumen para guardar la base de datos.
 * Crea una imagen docker con la aplicación desde una imagen base de debian o ubuntu. Ten en cuenta que el fichero de configuración de la base de datos (`core\controller\Database.php`) lo tienes que configurar utilizando las variables de entorno del contenedor mysql.
