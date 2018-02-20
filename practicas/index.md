@@ -14,6 +14,5 @@
    java
    docker
    docker_php
-   
 ```
 
