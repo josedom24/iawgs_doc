@@ -20,10 +20,3 @@ El índice de contenidos que vamos a estudiar será:
 
 Y las pácticas que vamos a realizar son:
 
- 
-```eval_rst
-.. toctree::
-   :maxdepth: 2
-
-   practicas/index
-```
