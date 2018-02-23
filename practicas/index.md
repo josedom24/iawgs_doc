@@ -14,5 +14,6 @@
    java
    docker
    docker_php
+   docker_python
 ```
 
